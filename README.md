@@ -13,7 +13,7 @@ GET /bancos: Listagem de todos os bancos
 GET /bancos/{código de compensação}: Consultar um banco baseado em seu código
 
 ## Utilização
-
+- O banco de dados local deverá ter um usuário com nome **root** e com senha vazia
 - Execute o arquivo **create_table.sql** para criar a tabela na base de dados e em seguida o arquivo **inserts.sql** para povoar a base de dados
 - No terminal dentro da pasta raiz execute o seguinte comando para iniciar a aplicação
 ```
